@@ -97,8 +97,8 @@ function handleFormSubmission(event) {
   document.querySelector("input#new-first-name").value = null;
   document.querySelector("input#new-last-name").value = null;
   document.querySelector("input#new-phone-number").value = null;
-  document.querySelector("input#new-work-email").value = null;
-  document.querySelector("input#new-home-email").value = null;
+  document.querySelector("input#new-work-email").value = "primary email";
+  document.querySelector("input#new-home-email").value = "secondary email";
   document.querySelector("input#new-home-address").value = null;
 }
 
